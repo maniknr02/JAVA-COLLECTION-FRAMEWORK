@@ -1,0 +1,58 @@
+Collection interface:  
+
+Collection interface is the root interface in the collection hierarchy. It declares the core methods for all collections.
+
+Commonly used methods of Collection interface:
+1. add(Object obj): Add object to the calling collection. It returns true if collection changed after this call otherwise returns false.
+
+Syntax: public boolean add(Object obj)
+
+2. addAll(Collection c): Add all objects to the calling collection. It returns true if collection changed after this call otherwise returns false.
+
+Syntax: public boolean addAll(Collection c)
+
+3. clear(): Remove all elements from the calling collection.
+
+Syntax: public void clear()
+
+4. contains(Object obj): It returns true if this collection contains the specified object otherwise returns false.
+
+Syntax: public boolean contains(Object obj)
+
+5. containsAll(Collection c):It returns true if this collection contains all elements of the specified collection otherwise returns false.
+
+Syntax: public boolean containsAll(Collection c)
+
+6. equals(Object obj): It returns true if this collection equals to the specified object otherwise returns false.
+
+Syntax: public boolean equals(Object obj)
+
+7. hashCode(): It returns the hash code of the calling collection.
+
+Syntax: public int hashCode()
+
+8. isEmpty(): It returns true if the calling collection is empty otherwise returns false.
+
+Syntax: public boolean isEmpty()
+
+9. iterator(): It returns an iterator instance for the calling collection.
+
+Syntax: public Iterator iterator()
+
+10. remove(Object obj): It remove the specified object from the calling collection. It returns true if collection changed after this call otherwise returns false.
+
+Syntax: public boolean remove(Object obj)
+
+11. removeAll(Collection c): It remove all elements of the specified collection from the calling collection. It returns true if collection changed after this call otherwise returns false.
+
+Syntax: public boolean removeAll(Collection c)
+
+12. retainAll(Collection c): It remove all elements except those of the specified collection from the calling collection. It returns true if collection changed after this call otherwise returns false.
+
+Syntax: public boolean retainAll(Collection c)
+
+13. size(): It returns the number of elements in the calling collection.
+
+Syntax: public int size()
+
+14. toArray( ): It returns an array of containing all elements of the calling collection
